@@ -9,10 +9,12 @@ import React from 'react';
 import { render } from 'react-dom';
 
 // Import the component, don't need the .js
-import StorePicker from './components/StorePicker';
+// import StorePicker from './components/StorePicker';
+// import App from './components/App';
+import Router from './components/Router';
 
 // Can import css here or put in component
 import './css/style.css';
 
 // Render the StorePicker component to the main div on the index.html page
-render(<StorePicker />, document.getElementById('main'));
+render(<Router />, document.getElementById('main'));
